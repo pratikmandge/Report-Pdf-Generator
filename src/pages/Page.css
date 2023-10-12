@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black; /* Set the background color for the center area */
+}
+
+.page-container {
+    width: 210mm; /* A4 width */
+    height: 306mm;
+    background-color: white; /* Set the background color for the A4 page */
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    flex: 8; /* Adjust this value to control the width of the center content area */
+    padding: 20px; /* Add padding for the content area */
+}
+
+.print-button {
+    display: flex;
+    justify-content: center;
+    margin: 50rem 0 0 30rem;
+    align-items: center;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    font-size: 47px;
+}

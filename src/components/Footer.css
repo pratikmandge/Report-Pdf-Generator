@@ -1,0 +1,11 @@
+.footer{
+    border-top: 2px solid blue;
+}
+
+.left {
+    margin-right: auto; /* Push the content to the left */
+}
+
+.right {
+    margin-left: auto; /* Push the content to the right */
+}
